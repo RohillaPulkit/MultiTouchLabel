@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029F059A1AA7014D008F5B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F05991AA7014D008F5B74 /* main.m */; };
+		029F059D1AA7014D008F5B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F059C1AA7014D008F5B74 /* AppDelegate.m */; };
+		029F05A01AA7014D008F5B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F059F1AA7014D008F5B74 /* ViewController.m */; };
+		029F05A31AA7014D008F5B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029F05A11AA7014D008F5B74 /* Main.storyboard */; };
+		029F05A51AA7014D008F5B74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029F05A41AA7014D008F5B74 /* Images.xcassets */; };
+		029F05A81AA7014D008F5B74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029F05A61AA7014D008F5B74 /* LaunchScreen.xib */; };
+		B4E2EECD219D39DB00B5908E /* Range.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E2EECC219D39DB00B5908E /* Range.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029F05AE1AA7014D008F5B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029F058C1AA7014D008F5B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029F05931AA7014D008F5B74;
+			remoteInfo = "MultiTouch Label";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029F05941AA7014D008F5B74 /* MultiTouch Label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiTouch Label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029F05981AA7014D008F5B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029F05991AA7014D008F5B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		029F059B1AA7014D008F5B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		029F059C1AA7014D008F5B74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		029F059E1AA7014D008F5B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		029F059F1AA7014D008F5B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		029F05A21AA7014D008F5B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029F05A41AA7014D008F5B74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		029F05A71AA7014D008F5B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		029F05AD1AA7014D008F5B74 /* MultiTouch LabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultiTouch LabelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E2EECB219D39DB00B5908E /* Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		B4E2EECC219D39DB00B5908E /* Range.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Range.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029F05911AA7014D008F5B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F05AA1AA7014D008F5B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029F058B1AA7014D008F5B74 = {
+			isa = PBXGroup;
+			children = (
+				029F05961AA7014D008F5B74 /* MultiTouch Label */,
+				029F05951AA7014D008F5B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		029F05951AA7014D008F5B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				029F05941AA7014D008F5B74 /* MultiTouch Label.app */,
+				029F05AD1AA7014D008F5B74 /* MultiTouch LabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		029F05961AA7014D008F5B74 /* MultiTouch Label */ = {
+			isa = PBXGroup;
+			children = (
+				B4E2EECB219D39DB00B5908E /* Range.h */,
+				B4E2EECC219D39DB00B5908E /* Range.m */,
+				029F059B1AA7014D008F5B74 /* AppDelegate.h */,
+				029F059C1AA7014D008F5B74 /* AppDelegate.m */,
+				029F05A41AA7014D008F5B74 /* Images.xcassets */,
+				029F05A61AA7014D008F5B74 /* LaunchScreen.xib */,
+				029F05A11AA7014D008F5B74 /* Main.storyboard */,
+				029F05971AA7014D008F5B74 /* Supporting Files */,
+				029F059E1AA7014D008F5B74 /* ViewController.h */,
+				029F059F1AA7014D008F5B74 /* ViewController.m */,
+			);
+			path = "MultiTouch Label";
+			sourceTree = "<group>";
+		};
+		029F05971AA7014D008F5B74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				029F05981AA7014D008F5B74 /* Info.plist */,
+				029F05991AA7014D008F5B74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		029F05931AA7014D008F5B74 /* MultiTouch Label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029F05B71AA7014D008F5B74 /* Build configuration list for PBXNativeTarget "MultiTouch Label" */;
+			buildPhases = (
+				029F05901AA7014D008F5B74 /* Sources */,
+				029F05911AA7014D008F5B74 /* Frameworks */,
+				029F05921AA7014D008F5B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiTouch Label";
+			productName = "MultiTouch Label";
+			productReference = 029F05941AA7014D008F5B74 /* MultiTouch Label.app */;
+			productType = "com.apple.product-type.application";
+		};
+		029F05AC1AA7014D008F5B74 /* MultiTouch LabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029F05BA1AA7014D008F5B74 /* Build configuration list for PBXNativeTarget "MultiTouch LabelTests" */;
+			buildPhases = (
+				029F05A91AA7014D008F5B74 /* Sources */,
+				029F05AA1AA7014D008F5B74 /* Frameworks */,
+				029F05AB1AA7014D008F5B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029F05AF1AA7014D008F5B74 /* PBXTargetDependency */,
+			);
+			name = "MultiTouch LabelTests";
+			productName = "MultiTouch LabelTests";
+			productReference = 029F05AD1AA7014D008F5B74 /* MultiTouch LabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029F058C1AA7014D008F5B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PulkitRohilla;
+				TargetAttributes = {
+					029F05931AA7014D008F5B74 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					029F05AC1AA7014D008F5B74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 029F05931AA7014D008F5B74;
+					};
+				};
+			};
+			buildConfigurationList = 029F058F1AA7014D008F5B74 /* Build configuration list for PBXProject "MultiTouch Label" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 029F058B1AA7014D008F5B74;
+			productRefGroup = 029F05951AA7014D008F5B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				029F05931AA7014D008F5B74 /* MultiTouch Label */,
+				029F05AC1AA7014D008F5B74 /* MultiTouch LabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029F05921AA7014D008F5B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029F05A31AA7014D008F5B74 /* Main.storyboard in Resources */,
+				029F05A81AA7014D008F5B74 /* LaunchScreen.xib in Resources */,
+				029F05A51AA7014D008F5B74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F05AB1AA7014D008F5B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029F05901AA7014D008F5B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029F05A01AA7014D008F5B74 /* ViewController.m in Sources */,
+				029F059D1AA7014D008F5B74 /* AppDelegate.m in Sources */,
+				029F059A1AA7014D008F5B74 /* main.m in Sources */,
+				B4E2EECD219D39DB00B5908E /* Range.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F05A91AA7014D008F5B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029F05AF1AA7014D008F5B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029F05931AA7014D008F5B74 /* MultiTouch Label */;
+			targetProxy = 029F05AE1AA7014D008F5B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		029F05A11AA7014D008F5B74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029F05A21AA7014D008F5B74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		029F05A61AA7014D008F5B74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029F05A71AA7014D008F5B74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		029F05B51AA7014D008F5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		029F05B61AA7014D008F5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		029F05B81AA7014D008F5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MultiTouch Label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PR.MultiTouch-Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		029F05B91AA7014D008F5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MultiTouch Label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PR.MultiTouch-Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		029F05BB1AA7014D008F5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiTouch LabelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTouch Label.app/MultiTouch Label";
+			};
+			name = Debug;
+		};
+		029F05BC1AA7014D008F5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiTouch LabelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTouch Label.app/MultiTouch Label";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029F058F1AA7014D008F5B74 /* Build configuration list for PBXProject "MultiTouch Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F05B51AA7014D008F5B74 /* Debug */,
+				029F05B61AA7014D008F5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029F05B71AA7014D008F5B74 /* Build configuration list for PBXNativeTarget "MultiTouch Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F05B81AA7014D008F5B74 /* Debug */,
+				029F05B91AA7014D008F5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029F05BA1AA7014D008F5B74 /* Build configuration list for PBXNativeTarget "MultiTouch LabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F05BB1AA7014D008F5B74 /* Debug */,
+				029F05BC1AA7014D008F5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029F058C1AA7014D008F5B74 /* Project object */;
+}
